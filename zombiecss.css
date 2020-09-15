@@ -1,0 +1,112 @@
+body
+{
+	background-image: url(img/cover.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.navigation
+{
+	background-color: #000;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	
+}
+
+.navigation img
+{
+	height: 50px;
+	float: left;
+	margin-left: 15%;	
+}
+.navigation img:hover
+{
+	transform: scalex(-1);
+}
+
+
+.navigation ul
+{
+	display:flex;
+	list-style: none;
+	float: right;
+	margin-top: 1px;
+	margin-bottom: -7px;
+	margin-right: 3%;
+
+}
+
+.navigation ul li
+{
+	padding: 12px 20px;
+	
+	text-align: center;
+	margin: 1px 0px;
+}
+
+.navigation ul li a
+{
+	text-decoration: none;
+
+	color: #fff;
+	font-size: 18px;
+	font-family: Verdana;
+	
+}
+
+.submenu
+{
+	display: none;
+}
+
+.active, .navigation ul li:hover
+{
+	transition: 0.3s;
+	background-color:  #2F4F4F;
+}
+
+.zombie-pic
+{
+	margin-right: auto;
+	margin-left: auto;
+
+
+	background-color:rgba(0, 0, 0, 0.8);
+
+	text-align: center;
+	width: 50%;
+	height: 560px;		
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	padding-top: 60px;
+}
+
+.zombie-pic img
+{	
+	position: relative;
+	border-radius: 10px;
+	height: 540px;
+	width: 510px;
+
+}
+
+.zombie-pic  a
+{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	padding: 5px 10px;
+
+	background-color:  #2F4F4F;
+	text-decoration: none;
+	color: #fff;
+}
